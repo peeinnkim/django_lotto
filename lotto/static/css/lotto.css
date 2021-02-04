@@ -1,0 +1,50 @@
+body {
+  background: #fefefe;
+}
+.page-header {
+  background-color: royalblue;
+  margin-top: 0;
+  padding: 20px 20px 20px 40px;
+  font-family: 'Space Mono', monospace;
+  border-bottom: 10px solid darkorange;
+  text-align: center;
+}
+.page-header h1 {
+  color: #FFFFFF;
+  text-align: center;
+}
+.container {
+  font-family: 'Space Mono', monospace;
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.container > .lotto_item {
+  height: 230px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #ccc;
+  overflow: visible;
+}
+.container h2 {
+  color: #B9F442;
+  font-weight: bold;
+}
+.container > form {
+  border: 8px solid royalblue;
+  padding: 20px;
+  width: 30%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.container > form > button {
+  float: right;
+  background: aliceblue;
+  border: none;
+  box-shadow: 1px 1px 3px #ddd;
+}
+.container > form input {
+  border: none;
+  background: moccasin;
+  color: darkorange;
+  outline-color: skyblue;
+}
